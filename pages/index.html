@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMania</title>
+    <link rel="shortcut icon" href="../images/logos/logo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styleIndex.css">
+</head>
+<body>
+
+<nav id="navbar">
+    <img src="../images/logos/logo.png" alt="MovieMania Logo">
+    <div class="logo-text"><img src="../images/logos/onlyname.png" alt="siteName"></div>
+</nav>
+
+<div class="hero">
+    <h1>Welcome to MovieMania</h1>
+    <p>Your ultimate destination for movie streaming</p>
+    <div class="page-selection-buttons">
+        <a href="bollywood.html">Bollywood</a>
+        <a href="hollywood.html">Hollywood</a>
+        <a href="anime.html">Anime</a>
+    </div>
+</div>
+
+<div class="categories" id="categories">
+    <div class="category" id="bollywood" onclick="openPage(this.id)">
+        <img src="../images/bollywood-images/bollywood.png" alt="Bollywood Movies">
+        <h3>Bollywood</h3>
+    </div>
+    <div class="category" id="hollywood" onclick="openPage(this.id)">
+        <img src="../images/hollywood-images/hollywood.png" alt="Hollywood Movies">
+        <h3>Hollywood</h3>
+    </div>
+    <div class="category" id="anime" onclick="openPage(this.id)">
+        <img src="../images/anime-images/anime.png" alt="Anime Movies">
+        <h3>Anime</h3>
+    </div>
+</div>
+
+<footer id="contact">
+    <div class="contact-info">
+        <p>Contact us: info@moviemania.com</p>
+    </div>
+    <div class="social-media">
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.twitter.com" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+    </div>
+    <p>&copy; 2024 MovieMania. All rights reserved.</p>
+</footer>
+<script src="scriptIndex.js"></script>
+
+</body>
+</html>
